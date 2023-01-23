@@ -18,9 +18,3 @@ if (isset($newImages)) {
 	$updateArtVentureServiceItem->portfolio_images = json_encode($existingImages);
 }
 ```
-Some basic Git commands are:
-```
-git status
-git add
-git commit
-```
