@@ -1,3 +1,4 @@
+'''
 	$newImages = $request->file('portfolio_images');
 	$existingImages = json_decode($updateArtVentureServiceItem->portfolio_images);
 		if (isset($newImages)) {
@@ -16,3 +17,5 @@
 			}
 			$updateArtVentureServiceItem->portfolio_images = json_encode($existingImages);
 		}
+
+'''
